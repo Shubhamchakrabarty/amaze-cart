@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966421888594",
+    "project_id": "amaze-cart-66746",
+    "storage_bucket": "amaze-cart-66746.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966421888594:android:8a842eb22ac84a4f8fe98b",
+        "android_client_info": {
+          "package_name": "com.amazecart.mainapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWkwmu5TPMXoBFi9MbzH1rG2KcvxgxcQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
