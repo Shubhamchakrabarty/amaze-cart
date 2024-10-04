@@ -1,6 +1,6 @@
 // src/firebase.js
 import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
+import { getAuth, signOut } from 'firebase/auth';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
@@ -39,4 +39,5 @@ export const getUserRole = async (uid) => {
   }
 };
 
-export { auth, db };
+// Export auth and db for use in other files
+export { auth, db, signOut };
